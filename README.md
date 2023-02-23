@@ -24,6 +24,8 @@ Siga o link abaixo para realizar a instalação do SQLite 3 (utilizado para gere
 Instalação de dependências linux: 
 - sudo apt-get install libpthread-stubs0-dev (Dividir a aplicação em tarefas - threads- que acessam recursos compartilhados)
 
+Além disso, é necessário extrair a pasta ***lib.tar.gz*** na raiz no projeto, que contêm arquivos de cabeçalho das bibliotecas utilizadas.
+
 ### Compilação:
 
 Basta usar o comando ***make*** no terminal que será iniciado a compilação e ligação dos arquivos utilizados. Após isso, com o comando ***make run*** é possível iniciar o sistema.
